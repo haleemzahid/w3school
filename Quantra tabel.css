@@ -31,17 +31,19 @@ button{
 }
 .algn-right input {
     width: 180px;
-    height: 40px;
+    height: 50px;
     padding-left:40px ;
     border: none;
     outline: none;
-    border-bottom: #777 solid 2px;
     background: url(Search.png) no-repeat left;
     background-size: 40px;
 }
 .text{
     background-color: #f0f0f0 !important;
 
+}
+.text:focus{
+    border-bottom: #1a95a5 solid 2px;
 }
 .table-box{
     width: 100%;
@@ -55,6 +57,7 @@ table{
 td{
     padding-left: 100px;
     text-align: center;
+
 }
 th{
     font-weight: normal;
